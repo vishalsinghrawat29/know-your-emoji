@@ -2,8 +2,44 @@
   font-family: sans-serif;
   text-align: center;
 }
+body {
+  background-color: #f2f4f8;
+}
 
 input {
   padding: 1rem;
   width: 80%;
+  border: 0.5px solid #000000;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 255, 255);
+}
+h3 {
+  color: rgb(38, 62, 88);
+}
+h1 {
+  color: rgb(38, 62, 88);
+}
+h2 {
+  color: #0c6cd6;
+}
+.container-center {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+  justify-content: center;
+}
+
+.footer {
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: rgb(38, 62, 88);
+}
+
+.footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0c6cd6;
 }
