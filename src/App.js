@@ -136,10 +136,34 @@ export default function App() {
           })}
         </div>
       }
-      <footer className="footer">
-        Developed by{" "}
-        <a href="https://vishalsinghrawat.netlify.app/">Vishal Singh Rawat</a>{" "}
-      </footer>
+      <div className="footer-section">
+        <h4>
+          Developed by{" "}
+          <a href="https://vishalsinghrawat.netlify.app/">Vishal Singh Rawat</a>
+        </h4>
+        <ul className="social-links list-non-bullet">
+          <li className="list-item-inline">
+            <a className="link" href="https://github.com/vishalsinghrawat29">
+              Github
+            </a>
+          </li>
+          |
+          <li className="list-item-inline">
+            <a className="link" href="https://twitter.com/vsrawat2906">
+              Twitter{" "}
+            </a>
+          </li>
+          |
+          <li className="list-item-inline">
+            <a
+              className="link"
+              href="https://www.linkedin.com/in/vishalsinghrawat/"
+            >
+              Linkdin
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
