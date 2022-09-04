@@ -160,7 +160,7 @@ export default function App() {
               className="link"
               href="https://www.linkedin.com/in/vishalsinghrawat/"
             >
-              Linkdin
+              Linkedin
             </a>
           </li>
         </ul>
