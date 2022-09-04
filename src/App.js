@@ -93,7 +93,7 @@ const emojiDictionary = {
 var emojiWeKnow = Object.keys(emojiDictionary);
 
 export default function App() {
-  var [meaning, setMeaning] = useState("");
+  var [meaning, setMeaning] = useState("no emoji selected");
   function emojiInputHandler(event) {
     var userInput = event.target.value;
     var meaning = emojiDictionary[userInput];
@@ -101,8 +101,9 @@ export default function App() {
     if (meaning === undefined) {
       meaning = "We don't have this in our databse";
     }
-
-    console.log(meaning);
+    if (userInput === "") {
+      meaning = "No emoji selected";
+    }
     setMeaning(meaning);
   }
   function emojiClickHandler(emoji) {
